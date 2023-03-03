@@ -1,0 +1,81 @@
+/* Generales */
+body {
+    margin: 0;
+    color: white;
+    background-color: #ee3f3f;
+    font-family: Arial;
+}
+h1, h2, h3 {
+    font-family: sans-serif;
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;   
+    padding: 1rem;
+}
+.separador {
+    width: 2rem;
+    background-color: #ee3f3f;
+    border-color: #ee3f3f;    
+}
+.separador--blanco {
+    background-color: white;
+    border-color: white;
+}
+.link {
+    display: inline-block;   
+    color: white;
+    background-color: #ee3f3f;
+    border-radius: 1rem;
+    padding: 0.6rem 1.2rem;   
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;  
+    transition: .3s;
+}
+.link:hover {
+    color: #ee3f3f;
+    background-color: white;  
+}
+.link--blanco {
+    color: black;
+    background-color: white;
+}
+.link--blanco:hover {   
+    color: white;
+    background-color: black;
+}
+
+/* Primera sección */
+.landing { 
+    padding: 4rem 2rem 7rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/desk.jpg");
+    background-size: cover;
+    background-position: bottom;   
+    text-align: center;
+}
+.landing__title { 
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.landing__text {
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+    color: #ffffffb8;
+}
+
+/* Segunda sección */
+.red {
+    padding: 3rem 3.8rem 4rem;
+    text-align: center;    
+}
+.red__title {
+    font-size: 1.7rem;
+}
+.red__text {   
+    margin-top: 1.25rem;
+    margin-bottom: 2.5rem;
+    color: #ffffffb8;
+    font-size: 0.9rem;    
+}
